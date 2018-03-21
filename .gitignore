@@ -1,0 +1,5 @@
+node_modules
+public/javascripts
+src/firebase-config.js
+npm-debug.log
+firebase-debug.log
