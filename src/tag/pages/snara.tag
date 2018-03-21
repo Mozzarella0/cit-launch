@@ -49,5 +49,6 @@
     .title {
       font-family: 'Anton', sans-serif;
     }
+
   </style>
 </app-snara>
