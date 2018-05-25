@@ -5,36 +5,39 @@ module.exports = {
   entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'public/javascripts')
+    path: path.join(__dirname, 'public/')
   },
-  mode: 'development',//mode 'production'
   module: {
     rules: [
       {
         enforce: 'pre',
         test: /\.tag$/,
         exclude: /node_modules/,
-        use: [{
-          loader: 'riotjs-loader',
-          options: {
-            type: 'none'
-          }
-        }],
+        loader: 'riot-tag-loader'
       },
       {
         test: /\.(tag|js)$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'buble-loader',
         options: {
-          presets: ['es2015-riot']
+          target: { ie: 10 }
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          { loader: 'css-loader', options: { url: false } },
+        ]
       }
     ]
   },
-  devtool: 'source-map',
   plugins: [
     new webpack.ProvidePlugin({
-      riot: 'riot'
+      riot: 'riot',
+      jQuery: 'jquery',
+      $: 'jquery',
+      'window.jQuery': 'jquery'
     })
   ]
 };
