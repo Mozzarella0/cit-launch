@@ -13,13 +13,13 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="/snara">Shin-Narashino</a>
+            <a href="#snara">Shin-Narashino</a>
           </li>
           <li>
-            <a href="/tsuda">Tsudanuma</a>
+            <a href="#tsuda">Tsudanuma</a>
           </li>
           <li>
-            <a href="/info">Info</a>
+            <a href="#info">Info</a>
           </li>
         </ul>
       </div>
