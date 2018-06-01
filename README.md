@@ -1,5 +1,5 @@
 ## ビルド
-npm run build
+npm run build --> これでリリースする
 
 ## 開発
 npm run dev

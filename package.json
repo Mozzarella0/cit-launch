@@ -21,8 +21,8 @@
     "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
-    "dev": "webpack-dev-server --progress --color --config webpack.dev.js",
-    "build": "webpack --progress --colors --config webpack.prod.js"
+    "dev": "webpack-dev-server --progress --color --devtool source-map --mode development",
+    "build": "webpack --progress --colors --mode production"
   },
   "author": "@RIOTtkg",
   "license": "GPL-3.0"

@@ -39,5 +39,9 @@ module.exports = {
       $: 'jquery',
       'window.jQuery': 'jquery'
     })
-  ]
+  ],
+  devServer: {
+    contentBase: './public',
+    port: 3000
+  },
 };
