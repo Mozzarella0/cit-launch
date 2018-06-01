@@ -4,7 +4,7 @@
       CIT-LAUNCH
       /<a href="https://twitter.com/RIOTtkg" target="_blank">AUTHOR</a>
       /<a href="https://github.com/Mozzarella0/cit-launch" target="_blank">GITHUB</a>
-      /<a href="https://github.com/Elastic1/it-chiba-api" target="_blank">API</a>
+      /<a href="https://twitter.com/Elastic07" target="_blank">API</a>
     </div>
   </div>
   <script>
